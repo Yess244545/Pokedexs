@@ -1,0 +1,243 @@
+.poke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+.pokeId{
+    position: relative;
+    width: min(800px,100%);
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+
+}
+.pokeId-header{
+    top: 0;
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    margin: 5px;                
+    width: calc(100% - 10px);
+}
+.pokeId-img{
+    position: absolute;
+    top: -30px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.pokeId-id{
+    font-size: 25px;
+    margin: 15px 0 5px 0;
+}
+.pokeId-name{
+    margin: 0;
+    text-transform: capitalize;
+}
+.pokeId-feactures{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pokeId-f{
+    font-size: 12px;
+
+}
+.pokeId-f-name{
+    margin: 10px 0 0 0;
+
+}
+.pokeId-f-value{
+    margin: 4px 0 0 0;
+    font-weight: bold;
+
+}
+
+.pokeId-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.pokeId-info-container{
+    width: max(45%,300px);
+
+}
+.pokeId-info-container:first-child{
+    color: white;
+}
+.pokeId-info-title{
+    margin-bottom: 0;
+    color: #030706;
+}
+.pokeId-info-data{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.pokeId-info-value{
+    border: 1px solid #D3D3D3;
+    width: 100%;
+    padding: 4px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pokeId-stats{
+    padding: 0 25px 30px 25px;
+}
+.pokeId-stats-title{
+    text-align: left;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+}
+.pokeId-stat-header{
+    display: flex;
+    justify-content: space-between;
+}
+.pokeId-stat-name{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.pokeId-stat-value{
+  font-weight: bold;
+}
+.pokeId-bar{
+    height: 20px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.pokeId-bar-p{
+    background: linear-gradient(90deg, #FCD676, #E6901E);
+    height: 20px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+/*types mStyles*/
+.bg-normal {
+    background:  #7C3F4C;
+  }
+  .bg-fighting {
+    background:  #96402A;
+  }
+  .bg-flying {
+    background:  #beb14c;
+  }
+  .bg-poison {
+    background:  #A564E3;
+  }
+  .bg-ground {
+    background:  #654008;
+  }
+  .bg-rock {
+    background:  #7E7E7E;
+  }
+  .bg-bug {
+    background:  #4AB648;
+  }
+  .bg-ghost {
+    background:  #323569;
+  }
+  .bg-steel {
+    background:  #7B7D7D ;
+  }
+  .bg-fire {
+    background:  #E75C35;
+  }
+  .bg-water {
+    background:  #1479FB;
+  }
+  .bg-grass {
+    background:  #74CB48;
+  }
+  .bg-electric {
+    background:  #F1C40F  ;
+  }
+  .bg-psychic {
+    background:  #E52D2D;
+  }
+  .bg-ice {
+    background:  #6FBEDF;
+  }
+  .bg-dragon {
+    background:  #478A93;
+  }
+  .bgr-dark {
+    background:  #030706;
+  }
+  .bg-fairy {
+    background:  #971B45;
+  }
+  .bg-unknown {
+    background:  #696767;
+  }
+  .bg-shadow {
+    background:  #6c31a3;
+  }
+  /* background linear gradient*/
+  
+  .bg-lg-normal {
+    background: linear-gradient(180deg, #AAA67F, #f0e9af);
+  }
+  .bg-lg-fighting {
+    background: linear-gradient(180deg, #C12239, #ec2b48  );
+  }
+  .bg-lg-flying {
+    background: linear-gradient(180deg, #A891EC, #b7a0fc );
+  }
+  .bg-lg-poison {
+    background: linear-gradient(180deg, #A43E9E, #da5cd1);
+  }
+  .bg-lg-ground {
+    background: linear-gradient(180deg, #654008, #D69638);
+  }
+  .bg-lg-rock {
+    background: linear-gradient(180deg, #000, #7E7E7E);
+  }
+  .bg-lg-bug {
+    background: linear-gradient(180deg, #4AB648, #C3DEA3);
+  }
+  .bg-lg-ghost {
+    background: linear-gradient(180deg, #323569, #9693b2);
+  }
+  .bg-lg-steel {
+    background: linear-gradient(180deg, #979A9A, #D7DBDD );
+  }
+  .bg-lg-fire {
+    background: linear-gradient(180deg, #F57D31, #e78a51);
+  }
+  .bg-lg-water {
+    background: linear-gradient(180deg, #1479FB, #82B2F1);
+  }
+  .bg-lg-grass {
+    background: linear-gradient(180deg, #44921d, #94d673);
+  }
+  .bg-lg-electric {
+    background: linear-gradient(180deg, #FFC300, #FCF3CF );
+  }
+  .bg-lg-psychic {
+    background: linear-gradient(180deg, #E52D2D, #DC7633 );
+  }
+  .bg-lg-ice {
+    background: linear-gradient(180deg, #6FBEDF, #BDEBFE);
+  }
+  .bg-lg-dragon {
+    background: linear-gradient(180deg, #478A93, #A2BEC1);
+  }
+  .bg-lg-dark {
+    background: linear-gradient(180deg, #030706, #5A5E5D);
+  }
+  .bg-lg-fairy {
+    background: linear-gradient(180deg, #971B45, #CD7D98);
+  }
+  .bg-lg-unknown {
+    background: linear-gradient(180deg, #696767, #000);
+  }
+  .bg-lg-shadow {
+    background: linear-gradient(180deg, #6c31a3, #000);
+  }

@@ -1,0 +1,46 @@
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+.header-black {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.header-img{
+    max-width: 280px;
+    margin-left: 20px;
+    position: absolute;
+    padding-top: 25px;
+
+}
+.header-circle{
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 50%;
+    bottom: 0px;
+    right: 10px;
+    top: 70px;
+    transform: translateX(-50%);
+}
+.header-circle-int{
+    position: absolute;
+    width: 35px;
+    aspect-ratio: 1;
+    background-color: #212121;
+    border: 8px solid black;
+    border-radius: 50%;
+    bottom: 7.75px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

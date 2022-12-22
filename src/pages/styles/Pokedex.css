@@ -1,0 +1,86 @@
+.poke-container{
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+    padding: 20px 0;
+}
+.pok-h2:first-child{
+    color: #FE1936;
+}
+.poke-header{
+    padding: 0 250px;
+}
+
+@media all and (max-width: 1076px) {
+    .poke-header {
+        
+        padding:0px 6px;
+        margin:0px 4px;
+    }
+}
+
+
+@media all and (max-width: 520px) {
+    .poke-header{
+        padding-left: 5px;
+    }
+}
+
+.poke-select{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    box-shadow: 0 3px 9px #00000026;
+    padding: 10px 20px;
+    width: 310px;
+    cursor: pointer;
+}
+/*.poke-select{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    box-shadow: 0 3px 9px #00000026;
+  color: #EC6F66;
+  width: 310px;
+  padding: 15px;
+  cursor: pointer;
+  
+}*/
+.poke-option{
+    background-color: white;
+  color: gray;
+  width: 310px;
+  padding: 10px 15px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/*FORM*/
+.poke-all{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.poke-input{
+    border: none;
+    box-shadow: -1px 2px 5px #0003;
+    padding: 8px 12px;
+    width: 310px;
+}
+.poke-btn{
+    border: none;
+    padding: 9px 25px;
+    background-color: #D93F3F;
+    color: white;
+    cursor: pointer;
+}
+.poke-btn:hover{
+    filter: brightness(1.1);
+}

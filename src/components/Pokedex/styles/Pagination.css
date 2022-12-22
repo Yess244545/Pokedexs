@@ -1,0 +1,22 @@
+.pokedex_pages{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+.pokedex_pages li{
+    padding: 10px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+.pokedex_pages li.actualPage{
+    background-color: rgb(107, 38, 38);
+
+}

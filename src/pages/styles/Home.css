@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+}
+.home-img{
+    padding: 10px;
+    max-width: 450px;
+}
+.home-subtitle{
+    color: var(--color-red);
+    margin-bottom: 0;
+}
+.home-text{
+    margin-top: 0;
+}
+
+/*FORM*/
+.home-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home-input{
+    border: none;
+    box-shadow: -1px 2px 5px #0003;
+    padding: 8px 12px;
+}
+.home-btn{
+    border: none;
+    padding: 9px 25px;
+    background-color: #D93F3F;
+    color: white;
+    cursor: pointer;
+}
+.home-btn:hover{
+    filter: brightness(1.1);
+}
